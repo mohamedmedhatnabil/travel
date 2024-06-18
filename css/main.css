@@ -1,0 +1,171 @@
+body {
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    position:static;
+    width:100%;
+    background-color: rgb(52, 148, 148);
+    color:aliceblue;
+    height:40px;
+}
+span{
+    color: aquamarine;
+}
+.clr{
+    clear: both;
+}
+.header-right{
+    padding-right: 100px;
+}
+.header-right a {
+    top:20px;
+    text-decoration: none;
+    float: right;
+    margin-right: 30px; 
+    color: white;
+}
+.header-left {
+    margin-left: 40px; 
+    height: auto;
+    float: left;
+    position: relative;
+    top:10px;
+}
+img{
+    width: 100%;
+}
+.image-container {
+    position: relative;
+    display: block;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.white-box {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    width: 80%; /* Adjust width as needed */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+#check{
+    text-align: center ;
+}
+.form-row {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.form-row input {
+    display: inline-block;
+    margin: 0 5px;
+}
+.submit-btn {
+    background-color: rgb(39, 39, 59);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+select{
+    padding-right: 150px;
+    border-radius: 0;
+}
+.right_image{
+    float:right;
+}
+.left_text{
+    float:left;
+    margin-left: 50px;
+}
+h1{
+    text-align: center;
+}
+.about_us{
+    padding-bottom: 30px;
+}
+.explore{
+    background-color: rgb(152, 227, 227);
+    padding: 15px 50px;
+}
+.right_video{
+    float: right;
+}
+.blog{
+    padding:10px 30px;
+}
+.card {
+    width:29%;
+    margin-left:20px;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.readmore{
+    color: black;
+    font-size: 20px;
+}
+.container h1{
+    text-align: left;
+}
+.offers{
+    background-color: rgb(152, 227, 227);
+    padding: 15px 50px;
+}
+.offers span{
+    text-decoration: line-through;
+    color:black;
+}
+.card button{
+    color: white;
+    background-color: black;
+    margin:10px;
+    padding: 5px;
+}
+.underline1{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto 5px;
+}
+.underline2{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto 5px;
+}
+.contact .form-row input  {
+    display: inline-block;
+    margin: 0 5px;
+    padding-right: 30%;
+}
+textarea{
+    display: inline-block;
+    margin: 0 5px;
+    padding-right: 70%;  
+}
